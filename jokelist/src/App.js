@@ -12,6 +12,7 @@ fetch(url).then(res => res.json).then((data) => {console.log(data)});
     <BrowserRouter>
       <Routes>
         <Route path="/Favoris" element={<Favoris/>} />
+        
       </Routes>
     </BrowserRouter>
   );
