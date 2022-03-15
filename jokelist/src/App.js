@@ -11,7 +11,7 @@ fetch(url).then(res => res.json).then((data) => {console.log(data)});
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Favoris/>} />
+        <Route path="/Favoris" element={<Favoris/>} />
       </Routes>
     </BrowserRouter>
   );
