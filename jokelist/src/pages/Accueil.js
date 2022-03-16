@@ -27,9 +27,8 @@ const Accueil = () => {
         return (
             <div>
             <Navigation/>
-            <Joke/>
             <h1>ACCUEIL</h1>
-            <p>{items.joke}</p>
+            <Joke/>
         </div>
         );
 }
