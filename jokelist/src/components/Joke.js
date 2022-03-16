@@ -24,12 +24,13 @@ const Joke = () => {
     return (
         <div>
             <h2>JOKE</h2>
-            <p>Joke: {data.value}</p>
-            <div>
-                <button onClick={handle}>Like</button>
-            </div>
-            <button type="button" onClick={ refreshPage }> <span>Next</span> </button> 
-        
+            <div classname='accueil'>
+                <p>Joke: {data.value}</p>
+                <div>
+                    <button onClick={handle}>Like</button>
+                </div>
+                <button type="button" onClick={ refreshPage }> <span>Next</span> </button> 
+        </div>
             
         </div>
     )

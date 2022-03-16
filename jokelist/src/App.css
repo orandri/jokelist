@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+h1 {
+  color: cyan;
+  text-align: center;
+}
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.accueil{
+  text-align: center;
+}

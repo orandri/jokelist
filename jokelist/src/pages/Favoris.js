@@ -16,7 +16,7 @@ const Favoris = () => {
         <div>
             <Navigation/>
             <h1>FAVORIS</h1>
-            <p>{JokeFav['joke8']}</p>
+            <p>{JokeFav["joke8"]}</p>
         <div>
             <button onClick={remove}>Remove</button>
          </div>
